@@ -31,7 +31,7 @@
 		// Mute the execute output
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		
-		// Finally.. execute the curl call and store the responce in a variable
+		// Finally.. execute the curl call and store the response in a variable
 		$result=curl_exec($ch);
 		// Close the curl resource
 		curl_close($ch);
