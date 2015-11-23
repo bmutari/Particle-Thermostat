@@ -9,7 +9,7 @@
 HIH61XX hih(0x27);
 
 //Setup global variables 
-double temp = 0;
+double tempF = 0;
 double hum = 0;
 double tcal =-2.0; //Calibration for temperature sensor
 int settemp = 55;
@@ -92,8 +92,8 @@ void setup() {
     matrix3.setBrightness(0.5);
     
     //Particle functions and variables
-    Particle.variable("temp", &temp, DOUBLE);
-    Particle.variable("hum", &hum, DOUBLE);
+    Particle.variable("temp", tempF);
+    Particle.variable("hum", hum);
     Particle.function("getsetpoint", getthesetpoint);
 }
 
@@ -102,25 +102,25 @@ void loop() {
     hih.start(); //Start the temperature and humidity sensor
     hih.update(); //request an update of the humidity and temperature
 
-    double temp = hih.temperature() * 1.8 + 32 + tcal; //The HIH61XX library defaults to C, convert to F 
+    double tempF = hih.temperature() * 1.8 + 32 + tcal; //The HIH61XX library defaults to C, convert to F 
     double hum = hih.humidity() * 100; 
     
-    Serial.print("Humidity: ");
-    Serial.print(hum, 1);
-    Serial.print("% RH (");
+    Serial.print("Hum: ");
+    Serial.print(hum);
+    Serial.print("% (");
     Serial.print(hih.humidity_Raw());
     Serial.println(")");
 
-    Serial.print("Temperature: ");
-    Serial.print(temp, 1);
+    Serial.print("Temp: ");
+    Serial.print(tempF);
     Serial.print(" F (");
     Serial.print(hih.temperature_Raw());
     Serial.println(")");
     
-    Serial.print("Set Point Temperature: ");
-    Serial.print(settemp);
+    Serial.print("Set Temp: ");
+    Serial.println(settemp);
     
-    String tempstg = String(temp,1); //Convert double to a string with 1 decimal place to display on the LED matrices
+    String tempstg = String(tempF,1); //Convert double to a string with 1 decimal place to display on the LED matrices
     
     //Select each character to display
     char tens = tempstg.charAt(0);
@@ -145,10 +145,10 @@ void loop() {
     matrix3.writeDisplay();
     
     //Thermostat logic
-    if (temp < settemp) {
+    if (tempF < settemp) {
         digitalWrite(furnace,HIGH);
     }
-    if (temp > settemp) {
+    if (tempF > settemp) {
         digitalWrite(furnace,LOW);
     }
 
