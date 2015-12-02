@@ -1,0 +1,549 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mr",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"SS",
+				"SSTI_buyitnow"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"the",
+				"the_permalink"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"SSTI",
+				"SSTIfeatured_products"
+			],
+			[
+				"add",
+				"add_shortcode"
+			],
+			[
+				"woo",
+				"woocommerce"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"home",
+				"homesearchbox"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"pa",
+				"parsley-errors-list"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"sin",
+				"single-product"
+			],
+			[
+				"qu",
+				"quantity"
+			],
+			[
+				"req",
+				"requestStatus"
+			],
+			[
+				"requestSta",
+				"requestStatusText"
+			],
+			[
+				"request",
+				"requestStatusText"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"some",
+				"someshit"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 948,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/script.js",
+			"settings":
+			{
+				"buffer_size": 12,
+				"line_ending": "Windows",
+				"name": "scripts here"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Brandon/Dropbox/MHC/thermostat.ino",
+		"/E/bin/hacktube.sh",
+		"/E/blacky/linux.notes",
+		"/C/Users/Brandon/Desktop/wp-config.php",
+		"/C/www/solusysbeta/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php",
+		"/C/www/solusysbeta/wp-content/plugins/woocommerce/assets/js/jquery-payment/jquery.payment.js",
+		"/C/Users/Brandon/Desktop/form-checkout.php",
+		"/C/Users/Brandon/Desktop/functions.php",
+		"/C/Users/Brandon/Desktop/review-order.php",
+		"/C/Users/Brandon/Desktop/content.php",
+		"/C/Users/Brandon/Desktop/page.php",
+		"//UBUNTU1/Logs/123456_TestLog.txt",
+		"/C/www/solusysbeta/wp-content/themes/3clicks-child-theme/woocommerce/archive-product.php",
+		"/C/www/solusysbeta/wp-content/themes/3clicks-child-theme/search.php",
+		"/C/www/solusysbeta/wp-content/themes/3clicks-child-theme/woocommerce/checkout/payment.php",
+		"/C/www/solusysbeta/wp-config.php",
+		"/C/www/solusysbeta/wp-content/themes/3clicks-child-theme/woocommerce/single-product/add-to-cart/simple.php",
+		"/C/www/solusysbeta/wp-content/themes/3clicks-child-theme/functions.php",
+		"/C/www/solusysbeta/wp-content/themes/3clicks-child-theme/style.css",
+		"/C/www/solusysbeta/wp-content/plugins/woocommerce/templates/checkout/review-order.php",
+		"/C/www/solusysbeta/wp-content/themes/3clicks-child-theme/woocommerce/checkout/review-order.php",
+		"/C/www/solusysbeta/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php",
+		"/C/www/brandonmutaribeta/wp-content/themes/Booklet/inc/top_menu.php",
+		"/C/www/solusysbeta/wp-content/themes/3clicks-child-theme/woocommerce/loop/no-products-found.php",
+		"/C/Users/Brandon/Downloads/wp.finalpack.3.5.4/3clicks-child-theme/modifications.js",
+		"/C/Users/Brandon/Downloads/wp.finalpack.3.5.4/3clicks-child-theme/style.css",
+		"/C/Users/Brandon/Downloads/wp.finalpack.3.5.4/3clicks-child-theme/functions.php",
+		"/C/www/solusysbeta/wp-content/themes/3clicks-child-theme/woocommerce/single-product/add-to-cart/variable.php",
+		"/C/www/solusysbeta/wp-settings.php",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/www/brandonmutaribeta/wp-config-sample.php",
+		"/C/www/brandonmutaribeta/wp-config.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/www/brandon/index.html",
+		"/C/xampp/htdocs/index.php",
+		"/C/www/solusysbeta/index.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/php/php.ini",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/apache/conf/httpd.conf",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/content-product-feat.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/style.css",
+		"/C/Users/Brandon/Desktop/websiteproject/xampp/phpMyAdmin/libraries/php-gettext/gettext.inc",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/functions.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/template_page_sidebar_right_narrow.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks/lib/g1-woocommerce/g1-woocommerce.php",
+		"/C/Users/Brandon/Desktop/solusys.com/wp-config.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks/index.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/plugins/woocommerce/includes/wc-product-functions.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks/css/g1-screen.css",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/plugins/woocommerce/includes/wc-template-functions.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/plugins/woocommerce/includes/wc-template-hooks.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/archive-productSSTI.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/content-productSSTI.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/single-product/warranty.php",
+		"/C/Users/Brandon/Desktop/style.css",
+		"/C/Users/Brandon/Desktop/woocommerce.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/googletracking.php",
+		"/C/Users/Brandon/Desktop/plugins.php",
+		"/C/Users/Brandon/Desktop/brandon.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/plugins/woocommerce/includes/class-wc-download-handler.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/plugins/really-simple-captcha/really-simple-captcha.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/single-product/request-quote.php",
+		"/C/Users/Brandon/Desktop/HoldingPage/index.html",
+		"/C/Users/Brandon/Desktop/websiteproject/xampp/mysql/bin/my.ini",
+		"/C/Users/Brandon/Documents/dumps/ssti-wp.sql",
+		"/C/Users/Brandon/Desktop/flatbebas/flatbebas/index.html",
+		"/C/Users/Brandon/Desktop/welcome.html",
+		"/C/Users/Brandon/Desktop/header.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks/lib/g1-contact-form/g1-contact-form.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/rfq-mailer.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/single-product/request-quoteBACKUP.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks/searchform.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/plugins/internal-product-notes/internal-product-notes.php",
+		"/C/Users/Brandon/Desktop/htaccess",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/header.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/single-product/up-sells.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/single-product.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/content-single-product.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/sendmail/sendmail.ini",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/content-productOG.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/rfq-mailer.php",
+		"/C/Users/Brandon/Desktop/WebsiteProject/xampp/htdocs/index.php",
+		"/C/Users/Brandon/Desktop/websiteproject/xampp/apache/conf/extra/httpd-xampp.conf",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/content-single-product.php",
+		"/C/Users/Brandon/OneDrive @ Solution Systems Technologies, Inc-/Brandon/WebsiteProject/xampp/htdocs/wp/index.php",
+		"/C/xampp/apache/conf/extra/httpd-xampp.conf",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/js/parsley.min.js",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/style.css",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/single-product/product-image.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/header.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/mailer.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks/lib/g1-contact-form/g1-contact-form.php",
+		"/C/Users/Brandon/Downloads/contact-form/contact-form/page-contact-us.php",
+		"/C/Users/Brandon/Downloads/ajax-contact-form-demo/ajax-contact-form-demo/app.js",
+		"/C/Users/Brandon/Downloads/ajax-contact-form-demo/ajax-contact-form-demo/style.css",
+		"/C/xampp/sendmail/sendmail.ini",
+		"/C/Users/Brandon/Downloads/ajax-contact-form-demo/ajax-contact-form-demo/mailer.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/single-product/add-to-cart/simple.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/archive-product.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/loop/result-count.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/single-product/related.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/request-quote.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/single-product/title.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/single-product/tabs/description.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks/lib/g1-woocommerce/g1-woocommerce.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/single-product.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/content-product.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/content-productOG.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks/header.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/content-product_cat.php",
+		"/C/xampp/htdocs/wp/wp-content/plugins/woocommerce/includes/wc-template-hooks.php",
+		"/C/xampp/htdocs/wp/wp-content/plugins/woocommerce/includes/wc-template-functions.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/lib/g1-woocommerce/g1-woocommerce.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/loop/loop-end.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks-child-theme/woocommerce/loop/loop-start.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks/g1-framework/lib/core-tools.php",
+		"/C/xampp/htdocs/wp/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks/page.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks/functions.php",
+		"/C/xampp/htdocs/wp/wp-content/themes/3clicks/woocommerce/archive-product.php",
+		"/C/Users/Brandon/Desktop/InventoryWooImport.csv",
+		"/E/ADOBE.CREATIVE.SUITE.6.0.MASTER.COLLECTION.LS16.ESD-ISO/nfo.nfo",
+		"/C/Users/Brandon/Desktop/brm.csv",
+		"/C/Users/Brandon/Desktop/engine.php",
+		"/C/Users/Brandon/Desktop/index.php",
+		"/C/Users/Brandon/Desktop/config.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"card",
+			"woocommerce_shortcode_products_query",
+			"product-quantity",
+			"<input type=\"button\" value=\"-\" class=\"minus\">",
+			"woocommerce_before_add_to_cart_button",
+			"class=\"rom\"",
+			"allowover",
+			"featured_products",
+			".g1-secondary-narrow",
+			".g1-secondary-narrow #primary",
+			"featured_products",
+			"woocommerce_template_loop_product_thumbnail()",
+			"woocommerce_before_shop_loop_item_title",
+			"woocommerce_template_loop_product_thumbnail",
+			"woocommerce_upsell_display",
+			"up-sells.php",
+			"upsells",
+			"up_sells",
+			"up-sells",
+			"upsells",
+			"product_list_widget",
+			"widget_products",
+			"g1-align-right",
+			"g1-halign",
+			"input::",
+			"place",
+			"#s",
+			"g1-searchbox",
+			"g1-searchbox__switch",
+			"searchform",
+			"GoogleFonts",
+			"families:",
+			"families: [",
+			"WebFontConfig",
+			"googleapis",
+			"fonts-googleapis",
+			".tp-caption.medium_light_white",
+			"up-sells.php",
+			"list_attributes()",
+			"oneday",
+			".alt",
+			"alt",
+			"left",
+			"div class=\"images\"",
+			"woocommerce_before_single_product_summary'",
+			"woocommerce_single_product_image_html",
+			"oocommerce_show_product_images",
+			"g1-button",
+			"contact_form",
+			"contact us",
+			"mysql",
+			"sendmail",
+			"mail",
+			"woocommerce_template_single_title",
+			"wc_get_template",
+			"woocommerce_template_single_title",
+			"woocommerce_stock_html",
+			"get_availability",
+			"additional-information.php",
+			"woocommerce_template_single_title",
+			"woocommerce_product_tabs",
+			"woocommerce_output_product_data_tabs",
+			"woocommerce_template_single_title",
+			"woocommerce_single_product_summary",
+			"Product Description",
+			"woocommerce_single_product_summary",
+			"woocommerce_after_single_product_summary",
+			"g1-content-area",
+			"woocommerce_before_shop_loop",
+			" woocommerce_result_count",
+			"woocommerce_template_loop_product_thumbnail",
+			"<figure class",
+			"span class g1-decorator",
+			"woocommerce-hooks.php",
+			"woocommerce_show_product_images",
+			"woocommerce_product_loop_start",
+			"woocommerce_product_tabs",
+			"woocommerce_after_shop_loop_item",
+			",,,,",
+			",",
+			"'",
+			"\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								932,
+								932
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/script.js",
+					"settings":
+					{
+						"buffer_size": 12,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"auto_name": "scripts here",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 357.0,
+	"status_bar_visible": true
+}
