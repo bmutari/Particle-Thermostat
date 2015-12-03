@@ -16,6 +16,9 @@
   <!-- Load Angular -->
   <script src="https://code.angularjs.org/1.4.7/angular.min.js"></script>
 
+  <!-- Load Angular App -->
+  <script src="js/app.js"></script>
+
 </head>
 
 <body ng-controller="MainCtrl">

@@ -8,9 +8,9 @@
 //Define address of temperature sensor
 HIH61XX hih(0x27);
 
-//Setup global variables 
-double tempF = 0;
-double hum = 0;
+//Setup global variables
+double tempF = 0.0;
+double hum = 0.0;
 double tcal =-2.0; //Calibration for temperature sensor
 int settemp = 55;
 int furnace = D2;
@@ -63,38 +63,38 @@ int displaytxt(String txt){
 
 
 void setup() {
-    //Start serial com
-    Serial.begin(9600);
-    
-    //Start I2C com
-    Wire.begin();
-    
-    //Setup furnace control 
-    pinMode(furnace, OUTPUT);
-    digitalWrite(furnace, LOW);
-    
-    //Start matrices
-    matrix1.begin(0x70); //Address defined by solder pad on LED backpack
-    matrix1.setTextWrap(false); // Allow text to run off edges
-    matrix1.clear();
-    
-    matrix2.begin(0x71);
-    matrix2.setTextWrap(false); 
-    matrix2.clear();
-    
-    matrix3.begin(0x72);
-    matrix3.setTextWrap(false); 
-    matrix3.clear();
-    
-    //Set brightness levels
-    matrix1.setBrightness(0.5);
-    matrix2.setBrightness(0.5);
-    matrix3.setBrightness(0.5);
-    
     //Particle functions and variables
     Particle.variable("temp", tempF);
     Particle.variable("hum", hum);
     Particle.function("getsetpoint", getthesetpoint);
+
+    //Start serial com
+    Serial.begin(9600);
+
+    //Start I2C com
+    Wire.begin();
+
+    //Setup furnace control
+    pinMode(furnace, OUTPUT);
+    digitalWrite(furnace, LOW);
+
+    //Start matrices
+    matrix1.begin(0x70); //Address defined by solder pad on LED backpack
+    matrix1.setTextWrap(false); // Allow text to run off edges
+    matrix1.clear();
+
+    matrix2.begin(0x71);
+    matrix2.setTextWrap(false);
+    matrix2.clear();
+
+    matrix3.begin(0x72);
+    matrix3.setTextWrap(false);
+    matrix3.clear();
+
+    //Set brightness levels
+    matrix1.setBrightness(0.5);
+    matrix2.setBrightness(0.5);
+    matrix3.setBrightness(0.5);
 }
 
 
@@ -102,9 +102,9 @@ void loop() {
     hih.start(); //Start the temperature and humidity sensor
     hih.update(); //request an update of the humidity and temperature
 
-    double tempF = hih.temperature() * 1.8 + 32 + tcal; //The HIH61XX library defaults to C, convert to F 
-    double hum = hih.humidity() * 100; 
-    
+    tempF = hih.temperature() * 1.8 + 32 + tcal; //The HIH61XX library defaults to C, convert to F
+    hum = hih.humidity() * 100;
+
     Serial.print("Hum: ");
     Serial.print(hum);
     Serial.print("% (");
@@ -116,34 +116,34 @@ void loop() {
     Serial.print(" F (");
     Serial.print(hih.temperature_Raw());
     Serial.println(")");
-    
+
     Serial.print("Set Temp: ");
     Serial.println(settemp);
-    
+
     String tempstg = String(tempF,1); //Convert double to a string with 1 decimal place to display on the LED matrices
-    
+
     //Select each character to display
     char tens = tempstg.charAt(0);
     char ones = tempstg.charAt(1);
     char tenths = tempstg.charAt(3);
-    
+
     matrix1.clear();
     matrix1.setCursor(2, 0);
     matrix1.write(tens);
-    
+
     matrix2.clear();
     matrix2.setCursor(0, 0);
     matrix2.write(ones);
     matrix2.drawRect(6,5, 2,2, LED_ON);
-    
+
     matrix3.clear();
     matrix3.setCursor(1, 0);
     matrix3.write(tenths);
-    
+
     matrix1.writeDisplay();
     matrix2.writeDisplay();
     matrix3.writeDisplay();
-    
+
     //Thermostat logic
     if (tempF < settemp) {
         digitalWrite(furnace,HIGH);
